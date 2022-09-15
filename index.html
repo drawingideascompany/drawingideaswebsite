@@ -17,10 +17,12 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+        <button onclick="topFunction()" id="back-to-top" title="Go to top">Top</button>
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/logo-neon-blue.png" alt="..." /></a>
+                <a class="navbar-brand" href="#page-top"><h3 class="txt-logo">DRAWING IDEAS COMP.</h3></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -49,32 +51,43 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">
+                        We offer web development and mobile application to make your dream web app and mobile application of all types of web-based software and; ensure great experience for web users.
+                    </h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <a class="card e-commerce">
+                            <div class="overlay"></div>
+                         <div class="circle">
+                            <i class="fas fa-shopping-cart"></i>
+                         </div>
+                         <p class="text-muted"><b class="e-commerce-paragraph">E-Commerce</b><br>
+                            We develop e-commerce website for your dream marketplace as you draw it on your mind and make them reality.
+                         </p> 
+                       </a>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <a class="card responsive-design">
+                            <div class="overlay"></div>
+                         <div class="circle">
+                            <i class="fas fa-laptop"></i>
+                         </div>
+                         <p class="text-muted"><b class="responsive-design-paragraph">Responsive Design</b><br>
+                            Guarantee that your web application and mobile application will be responsive and user friendly.
+                         </p> 
+                       </a>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <a class="card web-security">
+                            <div class="overlay"></div>
+                         <div class="circle">
+                            <i class="fas fa-lock"></i>
+                         </div>
+                         <p class="text-muted"><b class="web-security-paragraph">Web Security</b><br>
+                            Guarantee that the user privacy is safe and also the security of your datas and transactions.
+                         </p> 
+                       </a>
                     </div>
                 </div>
             </div>
@@ -84,7 +97,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">These are the list of applications that we make to ur valued customer.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -255,9 +268,9 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/jay.jpg" alt="..." />
                             <h4>Jay Andrade</h4>
                             <p class="text-muted">Full-Stack Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" href="#!" aria-label="Jay Andrade Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target='_blank' href="https://www.facebook.com/dntsjay" aria-label="Jay Andrade Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target='_blank' href="https://www.linkedin.com/in/jayandradeph/" aria-label="Jay Andrade LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -265,9 +278,9 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/john.jpg" alt="..." />
                             <h4>John Bryan Logdonio</h4>
                             <p class="text-muted">Full-Stack Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" href="#!" aria-label="John Bryan Logdonio Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target='_blank' href="https://www.facebook.com/Frostburnkrew" aria-label="John Bryan Logdonio Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target='_blank' href="https://www.linkedin.com/in/john-bryan-logdonio-b00b68187/" aria-label="John Bryan Logdonio LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -275,9 +288,9 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/khen.jpg" alt="..." />
                             <h4>Khen Benologa</h4>
                             <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" href="#!" aria-label="Khen Benologa Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target='_blank' href="https://www.facebook.com/dntskhen" aria-label="Khen Benologa Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target='_blank' href="https://www.linkedin.com/in/khen-benedict-benologa-78b7a0212/" aria-label="Khen Benologa LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -286,10 +299,10 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/majel.jpg" alt="..." />
                             <h4>Jonathan Majel Jr.</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="text-muted">Full Stack Developer</p>
+                            <a class="btn btn-primary btn-social mx-2" target= '_blank' href="https://twitter.com/nathan69086258" aria-label="Jonathan Majel Jr Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target= '_blank' href="https://www.facebook.com/simple126/" aria-label="Jonathan Majel Jr Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target= '_blank' href="https://www.linkedin.com/in/jonathan-majel-jr-503a78169/" aria-label="Jonathan Majel Jr LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -297,9 +310,9 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/lemuel2.jpg" alt="..." />
                             <h4>Lemuel Ledesma</h4>
                             <p class="text-muted">Flow-Manager/Database Master/Fullstack Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" href="#!" aria-label="Lemuel Ledesma Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target='_blank' href="https://www.facebook.com/intellectualbandit" aria-label="Lemuel Ledesma Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target='_blank' href="https://www.linkedin.com/in/lemuel-ledesma-891984122/" aria-label="Lemuel Ledesma LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -307,9 +320,9 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
                             <h4>Jess Riel Ravanes</h4>
                             <p class="text-muted">System Network Engineer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" href="#!" aria-label="Jess Riel Ravanes Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target='_blank' href="https://www.facebook.com/jrielravanes" aria-label="Jess Riel Ravanes Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-social mx-2" target='_blank' href="https://www.linkedin.com/in/jessriel/" aria-label="Jess Riel Ravanes LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -381,7 +394,7 @@
                     </div>
                     <!-- Submit success message-->
                     <!---->
-                    <!-- This is what your users will see when the form--->
+                    <!-- This is what your users will see when the form-->
                     <!-- has successfully submitted-->
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
