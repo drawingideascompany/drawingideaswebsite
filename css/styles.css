@@ -11407,11 +11407,11 @@ p {
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    font-size: 1.5em;
+    font-size: 4rem;
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 4rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11424,7 +11424,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 2.5rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -11832,6 +11832,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 .txt-logo {
 font-style: italic;
 text-shadow:0 0 8px #2c4fa8, 0 0 5px #284387;
+margin-left: -99px;
+}
+
+.dic-company-logo{
+  margin-right: 14px;
 }
 
 .e-commerce {
@@ -11951,7 +11956,7 @@ text-shadow:0 0 8px #2c4fa8, 0 0 5px #284387;
   border-radius: 50%;
   background: #e6e6e6;
   top: 27px;
-  left: 116px;
+  left: 147px;
   z-index: 0;
   transition: transform 0.3s ease-out;
 }
